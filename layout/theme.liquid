@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        hello i m header i am mohit solia welcome
+        {% sections "header-group" %}
     </header>
-{{ content_for_layout }}
+<main>{{ content_for_layout }}</main>
+<footer>
+    {% sections 'footer-group' %}
+</footer>
 </body>
 </html>
