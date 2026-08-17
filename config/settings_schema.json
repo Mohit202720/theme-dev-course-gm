@@ -1,1 +1,77 @@
-[]
+[
+    {
+        "name": "Layout",
+        "settings": [
+               {
+                    "type": "header",
+                     "content": "Page Width"
+                },
+                {
+                "type": "range",
+                "id": "page_width",
+                "min": 1000,
+                "max": 2000,
+                "step": 40,
+                "unit": "px",
+                "label": "Page Width",
+                "default": 1000
+                },
+                {
+                    "type": "header",
+                    "content": "Mobile Padding"
+                },
+                {
+                "type": "range",
+                "id": "mobile_padding",
+                "min": 0,
+                "max": 50,
+                "step": 2,
+                "unit": "px",
+                "label": "Padding",
+                "default": 16
+                },
+                 {
+                    "type": "header",
+                    "content": "Desktop Padding"
+                },
+                {
+                "type": "range",
+                "id": "desktop_padding",
+                "min": 0,
+                "max": 100,
+                "step": 2,
+                "unit": "px",
+                "label": "Padding",
+                "default": 16
+                }
+        ]
+    },
+    {
+        "name":"Typography",
+        "settings": [
+               {
+                    "type": "header",
+                     "content": "Heading Font"
+                },
+            
+                {
+                "type": "font_picker",
+                "id": "heading_font",
+                "label": "Heading font",
+                "default": "poppins_r7"
+                },
+               {
+                    "type": "header",
+                     "content": "Body Font"
+                },
+            
+                {
+                "type": "font_picker",
+                "id": "body_font",
+                "label": "Body font",
+                "default": "inter_n4"
+                }
+            
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+{% style %}
+  :root{
+    --page-width: {{ setttings.page_width | divided_by:16.0 | append:"rem" }};
+    --page-padding-mobile: {{ setttings.mobile_padding  }}px;
+    --page-padding-desktop: {{ setttings.desktop_padding  }}px;
+  }
+{% endstyle %}
