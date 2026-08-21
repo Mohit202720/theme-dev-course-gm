@@ -1,19 +1,30 @@
-
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "current":{
-        "page_width":1000,
-        "mobile_padding":16,
-        "desktop_padding":80,
-        "heading_font":"poppins_n7",
-        "body_font":"inter_n4"
-    },
-    "presets":{
-        "Default":{
-        "page_width":1000,
-          "mobile_padding":16,
-          "desktop_padding":80,
-           "heading_font":"poppins_n7",
-        "body_font":"inter_n4"
-        }
+  "current": {
+    "page_width": 1400,
+    "page_padding_mobile": 16,
+    "page_padding_desktop": 32,
+    "heading_font": "fjalla_one_n4",
+    "body_font": "poppins_n4",
+    "mobile_padding": 14,
+    "desktop_padding": 80,
+    "content_for_index": []
+  },
+  "presets": {
+    "Default": {
+      "page_width": 1000,
+      "mobile_padding": 16,
+      "desktop_padding": 80,
+      "heading_font": "poppins_n7",
+      "body_font": "inter_n4"
     }
+  }
 }

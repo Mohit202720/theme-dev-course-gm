@@ -2,9 +2,9 @@
 {{ settings.heading_font | font_face:font_display:"swap" }}
 {{ settings.body_font | font_face:font_display:"swap" }}
   :root{
-    --page-width: {{ setttings.page_width | divided_by:16.0 | append:"rem" }};
-    --page-padding-mobile: {{ setttings.page_padding_mobile  }}px;
-    --page-padding-desktop: {{ setttings.page_padding_desktop  }}px;
+    --page-width: {{ settings.page_width | divided_by:16.0 | append:"rem" }};
+    --page-padding-mobile: {{ settings.page_padding_mobile  }}px;
+    --page-padding-desktop: {{ settings.page_padding_desktop  }}px;
     --body-font:{{ settings.body_font.family }}, {{ settings.body_font.fallback_families }};
     --body-font-style :{{ settings.body_font.style }};
     --body-font-weight :{{ settings.body_font.weight }};

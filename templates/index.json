@@ -8,15 +8,24 @@
  * ------------------------------------------------------------
  */
 {
-    "sections":{
-        "main":{
-            "type":"header",
-            "settings":{}
-        },
-        "hero-banner":{
-            "type":"hero-banner",
-            "settings":{}
-        }
+  "sections": {
+    "main": {
+      "type": "header",
+      "settings": {}
     },
-    "order":["main","hero-banner"]
+    "hero_banner_TR7RrH": {
+      "type": "hero-banner",
+      "name": "Hero banner",
+      "settings": {
+        "banner": "shopify://shop_images/Shah-Rukh-Khan.webp",
+        "heading_text": "this is your awesome heading",
+        "description_text": "this is your awesome description text explainer",
+        "full_width_section": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_banner_TR7RrH"
+  ]
 }
