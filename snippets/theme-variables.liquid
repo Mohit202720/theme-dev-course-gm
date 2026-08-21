@@ -1,7 +1,15 @@
 {% style %}
+{{ settings.heading_font | font_face:font_display:"swap" }}
+{{ settings.body_font | font_face:font_display:"swap" }}
   :root{
     --page-width: {{ setttings.page_width | divided_by:16.0 | append:"rem" }};
-    --page-padding-mobile: {{ setttings.mobile_padding  }}px;
-    --page-padding-desktop: {{ setttings.desktop_padding  }}px;
+    --page-padding-mobile: {{ setttings.page_padding_mobile  }}px;
+    --page-padding-desktop: {{ setttings.page_padding_desktop  }}px;
+    --body-font:{{ settings.body_font.family }}, {{ settings.body_font.fallback_families }};
+    --body-font-style :{{ settings.body_font.style }};
+    --body-font-weight :{{ settings.body_font.weight }};
+    --heading-font:{{ settings.heading_font.family }}, {{ settings.heading_font.fallback_families }};
+    --heading-font-style:{{ settings.heading_font.style }};
+    --heading-font-weight:{{ settings.heading_font.weight }};
   }
 {% endstyle %}

@@ -1,0 +1,19 @@
+
+{
+    "current":{
+        "page_width":1000,
+        "mobile_padding":16,
+        "desktop_padding":80,
+        "heading_font":"poppins_n7",
+        "body_font":"inter_n4"
+    },
+    "presets":{
+        "Default":{
+        "page_width":1000,
+          "mobile_padding":16,
+          "desktop_padding":80,
+           "heading_font":"poppins_n7",
+        "body_font":"inter_n4"
+        }
+    }
+}
